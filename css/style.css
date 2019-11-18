@@ -10,7 +10,7 @@ body {
   /* padding:-10px; */
 }
 .big-container {
-  width: 80%
+  width: 70%
   margin:auto;
 }
 .container-heading {
@@ -51,7 +51,7 @@ ul.menu {
 ul.menu a {
 text-decoration: none;
 color: white;
-font-size: 25px;
+font-size: 20px;
 }
 ul.menu li {
   display: inline-block;
@@ -92,22 +92,36 @@ main::after{
   margin-top: 10px;
   padding:0 10px;
 }
-.float-right {
-  float: right;
+.mod1, .mod2, .mod3 {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 3px;
 }
-.col-right2 {
-  width: 20%;
-  background-color: purple;
-  margin-top: 10px;
-  padding:0 10px;
+footer {
+  width: 100%;
+  height: 200px;
+  padding: 10px 0 0 0;
+  text-align: center;
+  border-radius: 3px;
+  background-color: lightgrey;
+  color: rgb(180, 180, 180);
 }
-.col-right3 {
-  width: 20%;
-  background-color: purple;
-  margin-top: 10px;
-  padding:0 10px;
+.icons {
+  font-size: 30px;
 }
-.contaner-footer {
+.author {
+  border-bottom: 1px solid rgb(180, 180, 180);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.icons i {
+  display: inline-block;
+  margin: 0 100px;
+/*
+ */
+/* .contaner-footer {
   width: 100px;
 
-}
+} */
